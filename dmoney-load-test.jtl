@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1720601879596,176,User Login,200,OK,Thread Group 1-1,text,true,,617,311,1,1,http://dmoney.roadtocareer.net/user/login,160,0,107
+1720601879936,46,Create Agent,208,Already Reported,Thread Group 1-1,text,false,"Value in json path '$.message' expected to match regexp 'User created', but it did not match: 'User already exists'",397,651,1,1,http://dmoney.roadtocareer.net/user/create,46,0,0
+1720601880000,27,Create Customer,208,Already Reported,Thread Group 1-1,text,false,"Value in json path '$.message' expected to match regexp 'User created', but it did not match: 'User already exists'",397,647,1,1,http://dmoney.roadtocareer.net/user/create,27,0,0
+1720601880040,25,Create Merchant,208,Already Reported,Thread Group 1-1,text,false,"Value in json path '$.message' expected to match regexp 'User created', but it did not match: 'User already exists'",397,637,1,1,http://dmoney.roadtocareer.net/user/create,25,0,0
+1720601880067,30,Deposit System to Agent,404,Not Found,Thread Group 1-1,text,false,,386,533,1,1,http://dmoney.roadtocareer.net/transaction/deposit,30,0,0
+1720601880108,34,Deposit Agent to Customer,208,Already Reported,Thread Group 1-1,text,true,,417,537,1,1,http://dmoney.roadtocareer.net/transaction/deposit,34,0,0
+1720601880144,47,Check customer balance,200,OK,Thread Group 1-1,text,true,,374,493,1,1,http://dmoney.roadtocareer.net/transaction/balance/01990005928,47,0,0
+1720601880194,46,Withdraw Customer to Agent,208,Already Reported,Thread Group 1-1,text,true,,417,537,1,1,http://dmoney.roadtocareer.net/transaction/withdraw,46,0,0
+1720601880243,30,Payment Customer to Merchant,208,Already Reported,Thread Group 1-1,text,true,,417,536,1,1,http://dmoney.roadtocareer.net/transaction/payment,30,0,0
